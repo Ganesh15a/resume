@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+
+h1 {
+  font-family: typeface;
+  font-size: 20rem;
+}
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #003351;
+}
+.jumbotron > p {
+  font-family: "webfont";
+  font-size: 2rem;
+}
+
+#gallery {
+  background-color: #fffaee;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.4rem 2rem;
+  background: var(--main-color);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.btn:hover {
+  background: #ffc107;
+  letter-spacing: 0.1rem;
+}
+
+section {
+  padding-top: 4rem;
+}
